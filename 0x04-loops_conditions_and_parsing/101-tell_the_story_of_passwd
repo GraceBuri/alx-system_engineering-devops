@@ -2,5 +2,5 @@
 #display content of etc/passwd using while loop + IFS
 
 while IFS=':' read -r i1 i2 i3 i4 i5 i6 i7; do
-	echo "The user $i1 is part of the $i4 gang, livs in $i6 and rides $i7. $i3's place is protocted by the passcode $i2, more info about the user here: $i5 "
+	echo "The user $i1 is part of the $i4 gang, livs in $i6 and rides $i7. $i3's place is protected by the passcode $i2, more info about the user here: $i5"
 done < /etc/passwd
