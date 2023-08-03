@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Bash script displaying Best School 10 times but 9th iteration has hi before best school
+
+i=0
+while [ $i -lt 10 ]
+do
+	echo "Best School"
+	if [ $i -eq 8 ];
+	then
+		echo "Hi"
+	fi
+	(( i++ ))
+done
+	
