@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Fix bug in docker container
+echo "ServiceName localhost" >> etc/apache2/apache2.conf
+service apache2 start
